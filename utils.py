@@ -15,3 +15,11 @@ def q_tokenize(sentence):
     tokens = nltk.word_tokenize(sentence)
     return tokens
 
+def stem(word):
+    """
+    stemming = find the root form of the word
+    :param word: word to stem
+    :return: stemmed word
+    """
+    return stemmer.stem(word.lower())
+
