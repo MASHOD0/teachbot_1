@@ -3,7 +3,7 @@ import nltk
 from nltk.stem.porter import PorterStemmer
 
 
-def q_tokenize(sentence):
+def tokenize(sentence):
     """
     Given a document (represented as a string), return a list of all of the
     words in that document, in order.
